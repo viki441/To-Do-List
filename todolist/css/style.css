@@ -1,0 +1,74 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway&display=swap');
+body{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family:'Monsterrat';
+    background-color: #3b3038;
+}
+input{
+    border-radius: 10px;
+    padding:1%;
+    margin-bottom:30px;
+    font-family:'Monsterrat','Raveway';
+}
+input[type='input']{
+    width:40%;
+}
+input[type='button']{
+    width: 40%;
+    font-weight: 700;
+    border: 0px;
+}
+h1{
+    color:#fde4ba;
+}
+div#mainElement{
+    width:70%;
+    margin-top:5%;
+    margin-left:15%;
+    margin-right:15%;
+    font-family:'Raveway';
+}
+ul{
+    padding:0;
+}
+ul li, .unaddedElements li{
+    text-align: left;
+    list-style-type:none;
+    padding:2.5%;
+    margin:1%;
+    color:white;
+    border:1px solid #fde4ba;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+input#submitButton:hover{
+    background-color: #be8166;
+}
+input#clearButton:hover{
+    background-color: #832931;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    color:white;
+}
+
+/*MY BUTTONS*/
+.remButton, .doneButton, .returnButton{
+    background-color: #832b31;
+    border-radius: 10px;
+    float:right;
+    padding:10px;
+    color:white;
+    margin: 5px;
+    border: none;
+    cursor:pointer;
+}
+
+
+/*COLORS*/
+.removeColor,.doneColor{
+    color:#be8166;
+}
